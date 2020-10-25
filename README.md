@@ -1,7 +1,10 @@
 # stl_to_obj
 Converts a binary STL to OBJ
+
 Uses dictionary lookup for fast results
+
 Requires Python 3
+
 Can be run from the command line or imported as 
 
 ```
