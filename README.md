@@ -13,7 +13,7 @@ stl_to_obj('input.stl', 'output.obj')
 ```
 
 ```
-usage: stl_to_obj.py [-h] [--precision PRECISION] stl_file [obj_file]
+usage: stl_to_obj.py [-h] [--precision PRECISION] [--verbose] stl_file [obj_file]
 
 Converts a binary STL to OBJ
 
@@ -25,4 +25,5 @@ optional arguments:
   -h, --help            show this help message and exit
   --precision PRECISION, -p PRECISION
                         Rounds vertices to the given precision
+  --verbose, -v         Outputs mesh statistics
 ```
