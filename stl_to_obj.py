@@ -43,7 +43,7 @@ def stl_to_obj(stl_file, obj_file=None, precision=None):
         for face in faces:
             f.write(f'f {face[0] + 1} {face[1] + 1} {face[2] + 1}\n')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Converts a binary STL to OBJ')
     parser.add_argument('stl_file', help='STL file to process')
     parser.add_argument('obj_file', nargs='?', help='OBJ filename, defaults to stl_file.obj')
