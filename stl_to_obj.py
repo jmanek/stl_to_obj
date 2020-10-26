@@ -59,7 +59,7 @@ if __name__ == '__main__':
     parser.add_argument('stl_file', help='STL file to process')
     parser.add_argument('obj_file', nargs='?', help='OBJ filename, defaults to stl_file.obj')
     parser.add_argument('--precision', '-p', type=int, help='Rounds vertices to the given precision')
-    parser.add_argument('--verbose', '-v', action='store_true', help='Outputs mesh statistics')
+    parser.add_argument('--verbose', '-v', action='store_true', help='Outputs conversion info')
 
     args = parser.parse_args()
     try:
