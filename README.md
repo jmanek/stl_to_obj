@@ -25,5 +25,5 @@ optional arguments:
   -h, --help            show this help message and exit
   --precision PRECISION, -p PRECISION
                         Rounds vertices to the given precision
-  --verbose, -v         Outputs mesh statistics
+  --verbose, -v         Outputs conversion info
 ```
