@@ -4,7 +4,7 @@ import time
 
 
 def stl_to_obj(stl_file, obj_file=None, precision=None, verbose=False):
-    start_time = time.time()
+    if verbose: start_time = time.time()
     verts = []
     verts_idx = {}
     faces = []
