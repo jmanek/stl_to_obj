@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "stl_to_obj"
+version = "1.0.0"
+license = "MIT"
+description = "Converts a binary STL to OBJ"
+authors = ["Jesse Manek <jesse.manek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "stl_to_obj"}]
+repository = "https://github.com/jmanek/stl_to_obj"
+homepage = "https://github.com/jmanek/stl_to_obj"
+
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
