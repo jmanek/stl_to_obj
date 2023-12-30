@@ -3,17 +3,17 @@ Converts a binary STL to OBJ
 
 Uses dictionary lookup for fast results
 
-Requires Python 3
+Requires Python 3.6 and newer
 
 Can be run from the command line or imported as 
 
 ```
-from stl_to_obj import *
+from stl_to_obj import stl_to_obj
 stl_to_obj('input.stl', 'output.obj')
 ```
 
 ```
-usage: stl_to_obj.py [-h] [--precision PRECISION] [--verbose] stl_file [obj_file]
+usage: stl_to_obj [-h] [--precision PRECISION] [--verbose] stl_file [obj_file]
 
 Converts a binary STL to OBJ
 
