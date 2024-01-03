@@ -5,11 +5,24 @@ Uses dictionary lookup for fast results
 
 Requires Python 3.6 and newer
 
-Can be run from the command line or imported as 
+## Installation
+
+`pip install stl_to_obj`
+
+or
+
+`git clone https://github.com/jmanek/stl_to_obj.git`
+
+## Usage
+
+Can be run from the command line or imported 
 
 ```
 from stl_to_obj import stl_to_obj
-stl_to_obj('input.stl', 'output.obj')
+
+stl_to_obj('input1.stl') # saves to output1.obj
+
+stl_to_obj('input2.stl', 'output2.obj', precision=6, verbose=True)
 ```
 
 ```
